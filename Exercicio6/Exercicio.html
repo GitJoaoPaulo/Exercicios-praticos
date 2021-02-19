@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICIO PRATICO</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header>
+        <h1>Contando...</h1>
+    </header>
+
+    <section>
+        <p>Inicio: <input type="number" name="inicio" id="txti"></p>
+        <p>Fim: <input type="number" name="fim" id="txtf"></p>
+        <p>
+            <input type="radio" name="tipo" id="primo" >
+            <label for="primo">Primo</label>
+            <input type="radio" name="tipo" id="sequencia">
+            <label for="sequencia">Sequencia</label>
+            <input type="radio" name="tipo" id="par">
+            <label for="par">Par</label>
+            <input type="radio" name="tipo" id="impar">
+            <label for="impar">Impar</label>
+
+        </p>
+        <input type="button" value="Contar" onclick="contar()">
+        <div id="resultado">
+            <p>Preparando a contagem...</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;JoãoPaulo</p>
+    </footer>
+    <script src="script.js"></script>i
+</body>
+</html>
+

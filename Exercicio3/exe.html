@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXERCICIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Modelos de Veiculos</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Faixa de preço:
+                <input type="number" name="faixa" id="faixa" min="0">
+            </p>
+
+           <p>Escolha:
+            <input type="radio" name="gosto"  id="carro" checked>
+            <label for="carro">Carro</label>
+            <input type="radio" name="gosto" id="moto">
+            <label for="moto">Moto</label>
+           </p>
+           <p>
+               <input type="button" value="verificar" onclick="verificar()">
+            </p>
+        </div>
+
+        <div id="res">
+        Preencha corretamento os dados
+        </div>
+
+    </section>
+
+    <footer>&copy;João Paulo</footer>
+
+<script src="estilo.js"></script>    
+</body>
+
+</html>
